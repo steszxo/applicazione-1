@@ -12,12 +12,12 @@
     "react-scripts": "3.3.0"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "applicazione-1 -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -37,7 +37,7 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "devDependencies": {
-    "gh-pages": "^2.2.0"
+    "master": "^2.2.0"
   },
   "author": "",
   "license": "ISC"

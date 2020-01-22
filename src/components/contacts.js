@@ -9,7 +9,7 @@ const Contacts = ({contacts}) => {
                     <div class="card-body">
                     <p class="card-Img">{contact.avatarUrl}</p>
                         <h5 class="card-title">{contact.platformUserIdentifier}</h5>
-                        <h6 class="card-subtitle mb-2 text-muted">{contact.email}</h6> 
+                       <h6 class="card-subtitle mb-2 text-muted">{contact.platformUserHandle}</h6> 
                     </div>
                 </div>
             ))}
