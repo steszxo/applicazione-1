@@ -13,7 +13,7 @@ class App extends Component {
     };
 
     componentDidMount() {
-        fetch('https://api.tracker.gg/api/v2/tft/standard/search?platform=riot&query=100100&region=EUWdcd')
+        fetch('https://api.tracker.gg/api/v2/tft/standard/search?platform=riot&query=LUX%20AL%207&region=EUW')
             .then(res => res.json())
             .then((data) => {
                 this.setState({ contacts: data })
